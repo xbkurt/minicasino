@@ -1,0 +1,28 @@
+$small: 300px;
+$medium: 900px;
+$large: 1800px;
+
+.category-main {
+  @media screen and (max-width: $small) {
+  }
+  @media screen and (min-width: $medium) {
+  }
+  @media screen and (min-width: $large) {
+    margin-left: 14rem;
+  }
+}
+
+.category-divider {
+  margin-top: -5px;
+  margin-left: 50px;
+  width: 250px;
+  border-top: 2px solid #bbb;
+}
+
+.category-title {
+  margin-left: 3rem;
+}
+
+.category-text {
+  margin-left: 3rem;
+}

@@ -1,0 +1,25 @@
+$small: 300px;
+$medium: 900px;
+$large: 1800px;
+
+.left-sidebar {
+  position: absolute;
+  background-color: dimgrey;
+  width: 5rem;
+  height: 1850px;
+}
+
+.right-sidebar {
+  position: absolute;
+  margin-left: 95%;
+  background-color: dimgrey;
+  width: 5rem;
+  height: 1850px;
+  @media screen and (max-width: $small) {
+  }
+  @media screen and (min-width: $medium) {
+  }
+  @media screen and (min-width: $large) {
+    margin-left: 96%;
+  }
+}

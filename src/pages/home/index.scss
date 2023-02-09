@@ -1,0 +1,60 @@
+$small: 300px;
+$medium: 900px;
+$large: 1800px;
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-bar {
+  margin-left: 40%;
+  height: 100px;
+}
+
+.logout-button-style {
+  cursor: pointer;
+  height: 40px;
+  width: 188px;
+  margin-left: 10rem;
+  border-radius: 2px;
+  font-size: larger;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+}
+
+.search-item {
+  .ant-input {
+    margin-top: 50px;
+    height: 30px;
+    border: 2px solid gainsboro;
+    border-radius: 2px;
+  }
+  .ant-btn {
+    height: 32px;
+  }
+  @media screen and (max-width: $small) {
+  }
+  @media screen and (min-width: $medium) {
+  }
+  @media screen and (min-width: $large) {
+    margin-left: 1rem;
+  }
+}
+
+hr.solid {
+  display: flex;
+  width: 700px;
+  margin-left: 10rem;
+  border-top: 2px solid #bbb;
+}
+
+.game-body {
+  display: flex;
+}
+
+.categories-container {
+  margin-top: 2rem;
+}
